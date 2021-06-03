@@ -1,0 +1,2 @@
+Pytest==6.2.3
+Django==3.2
