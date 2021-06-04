@@ -1,2 +1,4 @@
 pytest-django
 Django==3.2
+pytest-factoryboy
+Faker

@@ -23,6 +23,10 @@ from django.contrib.auth.models import User
 #     print(new_user.first_name)
 #     assert new_user.first_name == "MyName"
 
-def test_new_user(new_user2):
-    print(new_user2.is_staff)
-    assert new_user2.is_staff
+# def test_new_user(new_user2):
+#     print(new_user2.is_staff)
+#     assert new_user2.is_staff
+
+def test_new_user(user_factory):
+    print(user_factory.username)
+    assert True
