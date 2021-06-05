@@ -1,6 +1,6 @@
 import pytest
 from pytest_factoryboy import register
-from tests.factories import UserFactory
+from tests.factories import UserFactory, CategoryFactory, ProductFactory
 
 from django.contrib.auth.models import User
 
@@ -49,3 +49,5 @@ automaticamente."""
 #     return new_user_factory("Test_user","password", "MyName", is_staff="True")
 
 register(UserFactory)
+register(CategoryFactory)
+register(ProductFactory)
